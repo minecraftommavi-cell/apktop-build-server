@@ -1,0 +1,19 @@
+{
+  "name": "apktop-build-server",
+  "version": "1.0.0",
+  "description": "APKTOP Android build server",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "axios": "^1.7.9",
+    "uuid": "^11.0.5",
+    "adm-zip": "^0.5.16"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
